@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.contactrapide.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.contactrapide.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.contactrapide.app-mergeDebugResources-33:/layout/activity_services.xml",
+        "source": "com.contactrapide.app-main-36:/layout/activity_services.xml"
+    },
+    {
+        "merged": "com.contactrapide.app-mergeDebugResources-33:/layout/activity_contact.xml",
+        "source": "com.contactrapide.app-main-36:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.contactrapide.app-mergeDebugResources-33:/layout/activity_about.xml",
+        "source": "com.contactrapide.app-main-36:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.contactrapide.app-mergeDebugResources-33:/layout/activity_map.xml",
+        "source": "com.contactrapide.app-main-36:/layout/activity_map.xml"
+    }
+]

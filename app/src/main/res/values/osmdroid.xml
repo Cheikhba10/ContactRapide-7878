@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="osmdroid_user_agent" translatable="false">ContactRapide/2.0 (Android; contactrapide)</string>
+</resources>

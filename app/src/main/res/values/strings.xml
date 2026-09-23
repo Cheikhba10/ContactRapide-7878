@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactRapide</string>
+    <string name="agency_name">ContactRapide — Agence des Bonnes</string>
+    <string name="tagline">Besoin d\'une bonne à Dakar ?</string>
+    <string name="promise">On sélectionne. On vérifie. On place.</string>
+    <string name="slogan">La tranquillité d\'esprit n\'a pas de prix.</string>
+
+    <!-- Boutons accueil -->
+    <string name="btn_call">Appeler</string>
+    <string name="btn_whatsapp">WhatsApp</string>
+    <string name="btn_location">Localisation</string>
+    <string name="btn_services">Services</string>
+    <string name="btn_about">À propos</string>
+
+    <!-- Contact -->
+    <string name="phone_number">761301330</string>
+    <string name="phone_display">76 130 13 30</string>
+    <string name="whatsapp_number">221761301330</string>
+    <string name="whatsapp_display">+221 76 130 13 30</string>
+
+    <!-- Adresse -->
+    <string name="address_short">Parcelles rond-point / Agence Yas</string>
+    <string name="address_full">Parcelles Assainies, Rond-point, près de l\'Agence Yas, Dakar, Sénégal</string>
+    <string name="latitude">14.7551443</string>
+    <string name="longitude">-17.4306665</string>
+
+    <!-- Services -->
+    <string name="services_title">Nos Services</string>
+    <string name="services_subtitle">Un personnel qualifié et vérifié, prêt à travailler</string>
+
+    <string name="service_menage_title">Ménage &amp; Cuisine</string>
+    <string name="service_menage_desc">Femmes de ménage expérimentées, cuisinières qualifiées. Entretien maison, repassage, préparation de repas.</string>
+
+    <string name="service_nounou_title">Garde d\'enfants / Nounou</string>
+    <string name="service_nounou_desc">Nounous douces et responsables. Garde à domicile, aide aux devoirs, surveillance des enfants.</string>
+
+    <string name="service_chauffeur_title">Chauffeur &amp; Sécurité</string>
+    <string name="service_chauffeur_desc">Chauffeurs professionnels avec permis, gardiens de sécurité formés et fiables.</string>
+
+    <string name="service_polyvalent_title">Personnel polyvalent</string>
+    <string name="service_polyvalent_desc">Aides à tout faire : courses, accompagnement, petits travaux, assistance quotidienne.</string>
+
+    <string name="service_cta">Demander ce service</string>
+
+    <!-- À propos -->
+    <string name="about_title">À propos</string>
+    <string name="about_agency">ContactRapide — Agence des Bonnes</string>
+    <string name="about_desc">Nous mettons en relation les familles et entreprises de Dakar avec un personnel de confiance, rigoureusement sélectionné et vérifié.</string>
+    <string name="hours_title">Horaires d\'ouverture</string>
+    <string name="hours_week">Lundi - Vendredi : 08h00 - 20h00</string>
+    <string name="hours_sat">Samedi : 09h00 - 18h00</string>
+    <string name="hours_sun">Dimanche : Sur rendez-vous</string>
+
+    <!-- Carte -->
+    <string name="map_title">Nous localiser</string>
+    <string name="map_my_position">Ma position</string>
+    <string name="map_open_gmaps">Ouvrir dans Google Maps</string>
+    <string name="map_route">Itinéraire</string>
+    <string name="map_loading">Chargement de la carte…</string>
+    <string name="map_error">Impossible de charger la carte. Vérifiez votre connexion.</string>
+
+    <!-- Actions -->
+    <string name="copy_number">Copier le numéro</string>
+    <string name="number_copied">Numéro copié</string>
+    <string name="share_app">Partager l\'application</string>
+    <string name="share_text">Découvrez ContactRapide — l\'agence de personnel de confiance à Dakar. Téléphone : 76 130 13 30</string>
+    <string name="loading">Chargement…</string>
+    <string name="error_network">Erreur réseau. Vérifiez votre connexion.</string>
+</resources>

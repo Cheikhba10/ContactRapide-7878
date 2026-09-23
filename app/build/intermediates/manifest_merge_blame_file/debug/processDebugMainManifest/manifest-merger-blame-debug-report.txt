@@ -1,0 +1,228 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.contactrapide.app"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:6:5-67
+12-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:7:5-79
+13-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:8:5-79
+14-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:9:5-81
+15-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:10:5-69
+16-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:10:22-66
+17    <uses-permission
+17-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:11:5-12:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:11:22-78
+19        android:maxSdkVersion="28" />
+19-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:12:9-35
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+22        android:name="com.contactrapide.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.contactrapide.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+26
+27    <supports-screens
+27-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:9:5-12:40
+28        android:anyDensity="true"
+28-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:10:9-34
+29        android:largeScreens="true"
+29-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:11:9-36
+30        android:normalScreens="true" />
+30-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:12:9-37
+31
+32    <uses-feature
+32-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:14:5-16:36
+33        android:name="android.hardware.location.network"
+33-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:15:9-57
+34        android:required="false" />
+34-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:16:9-33
+35    <uses-feature
+35-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:17:5-19:36
+36        android:name="android.hardware.location.gps"
+36-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:18:9-53
+37        android:required="false" />
+37-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:19:9-33
+38    <uses-feature
+38-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:20:5-22:36
+39        android:name="android.hardware.telephony"
+39-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:21:9-50
+40        android:required="false" />
+40-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:22:9-33
+41    <uses-feature
+41-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:23:5-25:36
+42        android:name="android.hardware.wifi"
+42-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:24:9-45
+43        android:required="false" />
+43-->[org.osmdroid:osmdroid-android:6.1.18] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/e5829fb185f5892829c888b102ca94cd/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:25:9-33
+44
+45    <application
+45-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:14:5-60:19
+46        android:allowBackup="true"
+46-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:15:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/ee3f641905b8652a50618e997e70fea9/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:16:9-43
+51        android:label="@string/app_name"
+51-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:17:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:18:9-54
+53        android:supportsRtl="true"
+53-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:19:9-35
+54        android:theme="@style/Theme.ContactRapide"
+54-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:20:9-51
+55        android:usesCleartextTraffic="true" >
+55-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:21:9-44
+56
+57        <!-- Splash Screen (écran de lancement) -->
+58        <activity
+58-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:25:9-33:20
+59            android:name="com.contactrapide.app.SplashActivity"
+59-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:26:13-43
+60            android:exported="true"
+60-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:27:13-36
+61            android:theme="@style/Theme.ContactRapide.Splash" >
+61-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:28:13-62
+62            <intent-filter>
+62-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:29:13-32:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:30:17-69
+63-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:30:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:31:17-77
+65-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:31:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- Écran d'accueil -->
+70        <activity
+70-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:36:9-38:40
+71            android:name="com.contactrapide.app.MainActivity"
+71-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:37:13-41
+72            android:exported="false" />
+72-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:38:13-37
+73
+74        <!-- Écran Services -->
+75        <activity
+75-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:41:9-43:40
+76            android:name="com.contactrapide.app.ServicesActivity"
+76-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:42:13-45
+77            android:exported="false" />
+77-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:43:13-37
+78
+79        <!-- Écran Carte -->
+80        <activity
+80-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:46:9-48:40
+81            android:name="com.contactrapide.app.MapActivity"
+81-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:47:13-40
+82            android:exported="false" />
+82-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:48:13-37
+83
+84        <!-- Écran Contact -->
+85        <activity
+85-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:51:9-53:40
+86            android:name="com.contactrapide.app.ContactActivity"
+86-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:52:13-44
+87            android:exported="false" />
+87-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:53:13-37
+88
+89        <!-- Écran À propos -->
+90        <activity
+90-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:56:9-58:40
+91            android:name="com.contactrapide.app.AboutActivity"
+91-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:57:13-42
+92            android:exported="false" />
+92-->/data/data/com.termux/files/home/ContactRapide/app/src/main/AndroidManifest.xml:58:13-37
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+96            android:authorities="com.contactrapide.app.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/60fc371e7698490ede3aaf2b37e549c2/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/208b3329a13d863e66f80754834bda79/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/208b3329a13d863e66f80754834bda79/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/208b3329a13d863e66f80754834bda79/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <receiver
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+111            android:directBootAware="false"
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+112            android:enabled="true"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+113            android:exported="true"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+114            android:permission="android.permission.DUMP" >
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+122                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+125                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.1/transforms/a391f9f7f2eab4337995321003b77a2d/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+126            </intent-filter>
+127        </receiver>
+128    </application>
+129
+130</manifest>
