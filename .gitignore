@@ -1,0 +1,20 @@
+# Build
+build/
+app/build/
+.gradle/
+.kotlin/
+
+# Fichiers locaux
+local.properties
+*.iml
+.idea/
+
+# Archives
+*.zip
+*.tar.gz
+old_files/
+
+# Keystore (sécurité)
+*.jks
+*.keystore
+!debug.keystore
